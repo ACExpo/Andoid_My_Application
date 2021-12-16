@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/backGround"
+    android:background="@color/dark_blue">
+
+    <TextView
+        android:id="@+id/msg_background"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:shadowColor="@color/gray"
+
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:text="Hello from Andreza!"
+
+        android:textAlignment="center"
+        android:textColor="@color/dark"
+        android:textSize="35sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/button_custom_text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="320dp"
+
+        android:background="@drawable/buttonshape"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Click to change to custom text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edit_Text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="260dp"
+        android:ems="13"
+        android:hint="Create your own text"
+
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/button_background"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+
+        android:background="@drawable/buttonshape"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Click to change background"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/button_text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+
+        android:background="@drawable/buttonshape"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Click to change text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/button_textcolor"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+
+        android:background="@drawable/buttonshape"
+        android:padding="11dp"
+
+        android:shadowColor="@color/dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+
+        android:text="Click to change text color"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
