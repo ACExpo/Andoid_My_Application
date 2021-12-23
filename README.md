@@ -1,4 +1,4 @@
-## ACE APP
+## Android_My_Application
 
 ### App Description
 It is an APP that displays text in a label and buttons that can change the text and change the color of the text and the background.
