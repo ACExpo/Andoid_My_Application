@@ -5,7 +5,7 @@ It is an APP that displays text in a label and buttons that can change the text 
 
 ### App Walk-though
 
-<img src="https://imgur.com/a/vTxOc43" width=200><br>
+<img src="https://imgur.com/a/vTxOc43" width=500><br>
 
 
 ### Required User Stories
